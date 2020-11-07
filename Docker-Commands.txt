@@ -13,6 +13,7 @@ sudo apt install docker-ce
 sudo docker -v
 sudo systemctl status docker
 sudo usermod -aG docker $USER
+exit
 >>>logout/login<<<
 ```
 
