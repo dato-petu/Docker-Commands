@@ -42,7 +42,8 @@ docker run -it -p 1234:8080 tomcat (interactive)
 (ctrl+c stop server)
 docker  ps     # list containers
 docker  ps -a  # list all containers
-docker run -d -p 1234:8080 tomcat (begraund)
+docker run -d -p 1234:8080 tomcat (begraund) (one 1 container)
+docker run -d -p 1235:8080 tomcat (begraund) (second 2 container)
 docker  ps     # list containers
 docker  ps -a  # list all containers
 docker run -it -p 8888:80 nginx (interactive)
